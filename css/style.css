@@ -89,7 +89,15 @@ HEADER
 ************************************
 ***********************************/
 .header{
-    background: url('../img/bg-banner02.jpg') no-repeat fixed;
+    /* background: url('../img/bg-banner02.jpg') no-repeat fixed; */
+		background: rgba(181,26,171,1);
+    background: -moz-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(181,26,171,1)), color-stop(100%, rgba(251,80,80,1)));
+    background: -webkit-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: -o-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: -ms-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: linear-gradient(to bottom, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b51aab', endColorstr='#fb5050', GradientType=0 );
     background-size: cover;
     min-height: 650px;
     position: relative;
@@ -564,7 +572,15 @@ contact
 ***********************************/
 #contact
 {
-    background-color: rgb(73, 84, 105);
+    /* background-color: rgb(73, 84, 105); */
+		background: rgba(181,26,171,1);
+    background: -moz-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(181,26,171,1)), color-stop(100%, rgba(251,80,80,1)));
+    background: -webkit-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: -o-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: -ms-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: linear-gradient(to bottom, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b51aab', endColorstr='#fb5050', GradientType=0 );
 }
 .btn-submit, .btn-submit:hover, .btn-submit:focus
 {
