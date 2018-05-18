@@ -105,7 +105,7 @@ HEADER
 }
 .bg-color
 {
-    background-color: rgba(0, 0, 0, 0.5);
+    *background-color: rgba(0, 0, 0, 0.5);
     min-height: 650px;
 }
 #main-header
@@ -130,7 +130,7 @@ HEADER
 
 .logo-dec
 {
-    color: #be9e21;
+    color: #cbdb2e;
 }
 .navbar-default .navbar-brand {
     color: #fff;
@@ -161,12 +161,12 @@ HEADER
     transition: color 0.2s ease-out;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #be9e21;
+    color: #cbdb2e;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     background-color: transparent;
-    color: #be9e21;
+    color: #cbdb2e;
 }
 .banner-info
 {
@@ -193,6 +193,7 @@ h2.bnr-sub-title
 .bnr-para
 {
     font-weight: 300;
+		font-size: 17px;
 }
 .btn-download, .btn-more, .btn-download:hover, .btn-download:focus, .btn-more:focus
 {
@@ -580,28 +581,29 @@ contact
     background: -webkit-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
     background: -o-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
     background: -ms-linear-gradient(top, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
-    background: linear-gradient(to bottom, rgba(181,26,171,1) 0%, rgba(251,80,80,1) 100%);
+    background: linear-gradient(to bottom, rgba(116, 11, 47) 0%, rgba(250, 23, 101) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b51aab', endColorstr='#fb5050', GradientType=0 );
 }
 .btn-submit, .btn-submit:hover, .btn-submit:focus
 {
     background-color: transparent;
     border-radius: 60px;
-    color: #be9e21;
+    color: #ffffff;
     font-weight: 400;
-    border: 1px solid #be9e21;
+    border: 1px solid #cbdb2e;
     font-size: 14px;
     padding: 6px 20px;
 }
 .form-control
 {
-    background-color: transparent;
+    background-color: #0000001c;
     border-radius: 0px;
-    color: #be9e21 !important;
-    border-color: #be9e21;
+    color: #cbdb2e !important;
+    border-color: #cbdb2e;
+		font-size: 15px;
 }
 .form-control:focus {
-    border-color: #be9e21;
+    border-color: #cbdb2e;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
@@ -648,7 +650,7 @@ contact
 }
 .loction-info p i
 {
-    color: #be9e21;
+    color: #cbdb2e;
 }
 /***********************************
 ************************************
@@ -666,7 +668,7 @@ contact
     width: 42px;
     height: 42px;
     color: #ffffff;
-    background: #be9e21;
+    background: #cbdb2e;
     font-size: 14px;
     line-height: 42px;
     text-align: center;
@@ -742,7 +744,7 @@ Responsive media queries
     margin-top: 0px;
 }
 .banner-info {
-    padding-top: 40px;
+    *padding-top: 40px;
 }
 h1.bnr-title {
     font-size: 16px;
