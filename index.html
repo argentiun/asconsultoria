@@ -75,11 +75,17 @@
     <section id="feature" class="section-padding wow fadeIn delay-05s">
       <div class="container">
         <div class="row">
+
+          <div class="col-md-12 text-center">
+              <h2 class="service-title pad-bt15" style="padding-bottom: 50px;">Nuestros Servicios</h2>
+          </div>
+
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="wrap-item text-center">
               <div class="item-img">
                 <!-- <img src="img/ser01.png"> -->
               </div>
+
               <h3 class="pad-bt15">Inscripciones</h3>
               <p>Inscripciones de personas fisicas, sociedades, monotributo, autonomos e inscripciones varias.</p>
             </div>
@@ -235,7 +241,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2 class="service-title pad-bt15">¿Quienes Somos?</h2>
+            <h2 class="service-title pad-bt15" style="padding-bottom: 30px;">¿Quienes Somos?</h2>
             <p class="sub-title pad-bt15">Somos un consultoría de principio de 2016, donde venimos de realizar estas actividades durante muchos años, siempre con dedicación y esfuerzo. Realizando todo tipo de servicios en un mismo espacio, tramites de AFIP, ARBA, Municipales, Multas de transito, entre muchisimas más. Contamos la mejor experiencia, disponiendo con un sector juridico, apoyando el derecho civil - comercial, familiar y tributario.<br> <br>Son 15 Años de experiencia, compromiso y dedicación en nuestra labor a su alcance. No dude en confiar en <br> AS Consultoria.</p>
             <hr class="bottom-line">
           </div>
@@ -474,7 +480,7 @@
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="loction-info white">
-              <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Las heras<br>Nº 138 | 1 PISO | Of. 1</p>
+              <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Las heras Nº 138 | 1 PISO | Of. 1 <br> Bernal - Buenos Aires </p>
               <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@asconsultoria.com.ar</p>
               <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>(011) 4224-3739</p>
             </div>
@@ -483,31 +489,47 @@
             <div class="contact-form">
                 <div id="sendmessage">Su mensaje fue enviado. Muchas gracias.</div>
                 <div id="errormessage"></div>
-                <form action="" method="post" role="form" class="contactForm">
+                <form method="post" role="form" class="contactForm" action="formulario-contacto.php">
                     <div class="col-md-6 padding-right-zero">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Escriba su nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Escriba su nombre" data-rule="minlen:4" data-msg="Por favor ingresar por lo menos 4 carácteres." />
                             <div class="validation"></div>
                         </div>
                     </div>
+
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Escriba su Correo Electronico" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Escriba su teléfono" data-rule="minlen:4" data-msg="Por favor ingresar un asunto de por lo menos 4 carácteres." />
                             <div class="validation"></div>
                         </div>
                     </div>
+
                     <div class="col-md-12">
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Escriba su Correo Electronico" data-rule="email" data-msg="Por favor ingresar un correo válido." />
                             <div class="validation"></div>
                         </div>
                     </div>
+
                     <div class="col-md-12">
-                      <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Escriba su mensaje"></textarea>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingresar un asunto de por lo menos 4 carácteres." />
                             <div class="validation"></div>
                         </div>
-                      <button type="submit" class="btn btn-primary btn-submit">Enviar Mensaje</button>
+                    </div>
+
+                    <div class="col-md-12">
+                      <div class="form-group">
+                            <textarea class="form-control" name="consulta" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Escriba su mensaje"></textarea>
+                            <div class="validation"></div>
+                        </div>
+
+                        <div class="form-group col-lg-12" style="padding-left: 0px;">
+                            <input type="submit" name="submit" value="Enviar Mensaje" class="btn btn-primary btn-submit">
+                            <!-- <button type="submit" class="btn btn-default">Enviar</button> -->
+                        </div>
+
+                      <!-- <button type="submit" class="btn btn-primary btn-submit">Enviar Mensaje</button> -->
                     </div>
                 </form>
 
